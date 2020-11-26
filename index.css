@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background: url(./asset/elegant-white-background-with-shiny-lines_1017-17580.jpg) no-repeat center;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section {
+    height: 100vh;
+}
+/* #section1 {
+    display: flex;
+} */
+#container {
+    display: flex;
+}
+#welcoming {
+    width: 30%;
+    border-right: 1px #707070 solid;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+#welcomingHead, #Status {
+    margin: 40px 50px;
+    color: #707070;
+}
+#welcomingHead h1 {
+    font-size: 50px;
+}
+#welcomingHead h2, #Status h2 {
+    font-size: 40px;
+}
+#profilepic {
+    height: 231px;
+    width: 320px;
+    background: url(./asset/IMG_0835.JPG) no-repeat center;
+    background-size: cover;
+    border-radius: 42px;
+    margin: 5px 50px;
+}
+#aboutme {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.aboutMeHead{
+    font-size: 45px;
+    margin: 20px 50px 0;
+    color: #707070;
+}
+#aboutMeText1{
+    font-size: 20px;
+    margin: 20px 50px;
+    color: #707070;
+}
+#aboutMeText2, #aboutMeText3 {
+    font-size: 20px;
+    margin: 20px 60px;
+    color: #707070;
+}
